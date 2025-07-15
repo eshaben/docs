@@ -5,10 +5,10 @@ on:
 
 jobs:
   check-docs-links:
-    uses: papermoonio/workflows/.github/workflows/core-pr-link-checker.yml@main
+    uses: eshaben/workflows/.github/workflows/core-pr-link-checker.yml@main
     with:
       mkdocs_repo: papermoonio/kluster-mkdocs
-      docs_repo: kluster-ai/docs
+      docs_repo: eshaben/docs
       mkdocs_repo_name: kluster-mkdocs
       docs_repo_name: kluster-docs
       url: https://docs.kluster.ai
